@@ -1,0 +1,11 @@
+{
+  "name": "learn_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "shineflag",
+  "license": "MIT",
+  "dependencies": {
+    "imagemagick": "^0.1.3",
+    "images": "^3.0.1"
+  }
+}
