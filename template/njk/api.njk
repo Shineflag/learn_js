@@ -1,0 +1,37 @@
+import request from '@/utils/request'
+
+//创建{{TABLE_LABEL}}
+export function createTABLE_LABEL(data) {
+    return request({
+        url: '/system/dictionaryset/generalSave',
+        method: 'post',
+        data,
+    })
+}
+
+//删除{{TABLE_LABEL}}
+export function deleteDictionary(data) {
+    return request({
+        url: '/system/dictionaryset/generalDeleteBatch',
+        method: 'post',
+        data,
+    })
+}
+
+//更新{{TABLE_LABEL}}
+export function updateDictionary(data) {
+    return request({
+        url: '/system/dictionaryset/generalUpdate',
+        method: 'post',
+        data,
+    })
+}
+
+//获取{{TABLE_LABEL}}分页
+export function getPageDictionary(data) {
+    return request({
+        url: '/system/dictionaryset/generalGetPage',
+        method: 'post',
+        data,
+    })
+}
