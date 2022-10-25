@@ -15,7 +15,8 @@
     "mongoose": "^5.8.12",
     "nats": "^1.2.2",
     "node-rsa": "^1.0.2",
-    "nunjucks": "^3.2.3"
+    "nunjucks": "^3.2.3",
+    "pngjs": "^6.0.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.17.1",
